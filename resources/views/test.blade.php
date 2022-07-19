@@ -26,7 +26,7 @@
 </style>
 <body>
     <div class="header">
-    <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+    		<nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
