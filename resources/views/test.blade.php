@@ -29,11 +29,6 @@
     		<nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>                        
-						</button>
 						<a href="homepage.php"><img style="margin: 15px;" src="img/weblogo.jpg" width="180px" height="50px"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
@@ -44,20 +39,20 @@
 									<ul class="dropdown-menu">
 										<li><a href="login2.php">Login</a></li>
 										<li><a href="signup.php">Sign Up</a></li>
-										<li><a href="cart.php">Cart</a></li>
+										<li><a href="cart.php">Team management</a></li>
 									</ul>
 								</li>
-								<li><a href="managesong.php"><span class=" glyphicon glyphicon-music"> Song</a></li>
-								<li><a href="introduction.php"><span class=" glyphicon glyphicon-bookmark"> About us</a></li>
+								<li><a href="managesong.php"><span class=" glyphicon glyphicon-music"> Match</a></li>
+								<li><a href="introduction.php"><span class=" glyphicon glyphicon-bookmark"> News</a></li>
 						</ul>
-							<ul class="nav navbar-nav navbar-right">
+							<!-- <ul class="nav navbar-nav navbar-right">
 								<div style="margin-top: 25px;" id="form_search">
 									<form method="get" action="search.php">
 										<input type="text" name="user_query" placeholder="Search a music" />
 										<input type="submit" name="Search" value="search" />
 									</form>
 								</div>	
-							</ul>
+							</ul> -->
 					</div>
 				</div>
 			</nav>	
