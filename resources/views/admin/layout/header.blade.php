@@ -21,7 +21,6 @@
 		margin-top: 15px;
 		margin-right: 10px;
 		margin-left: 10px;
-		margin-bottom: 15px;
 	}
 	.carousel-inner .item img {
         margin: auto;
@@ -42,7 +41,7 @@
 								<li class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Account<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="login2.php">Login</a></li>
+										<li><a href="login.php">Login</a></li>
 										<li><a href="signup.php">Sign Up</a></li>
 										<li><a href="cart.php">Team management</a></li>
 									</ul>
@@ -60,7 +59,7 @@
 							</ul> -->
 					</div>
 				</div>
-			</nav>	
-		</div>
+			</nav>
+	</div>
 </body>       
 </html>
