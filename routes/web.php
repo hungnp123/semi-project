@@ -22,3 +22,6 @@ Route::get('/test', function (){
 Route::get('/header', function (){
     return view('admin/layout/header');
 });
+Route::get('/banner', function (){
+    return view('admin/layout/banner');
+});
