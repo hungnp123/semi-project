@@ -25,4 +25,10 @@ Route::get('/header', function (){
 Route::get('/banner', function (){
     return view('/admin/layout/banner');
 });
+Route::get('/logIn', function (){
+    return view('/logIn');
+});
+Route::get('/signUp', function (){
+    return view('/signUp');
+});
 
