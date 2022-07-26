@@ -20,5 +20,5 @@ Route::get('/test', function (){
     return view('test');
 });
 Route::get('/header', function (){
-    return view('layout/header');
+    return view('admin/layout/header');
 });
