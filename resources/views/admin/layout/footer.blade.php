@@ -11,16 +11,16 @@
     <div class="footer">
         <br>
         <hr>
-        <img style="float: right;" src="https://images.milledcdn.com/2018-04-24/7ZkLhOzxOExjNvwm/9MOJZopZWnhy.jpg" width="300px"; height="50px">
+        <img style="float: right;" src="img/weblogo.jpg" width="300px"; height="85px">
         <p>Information:</p>
         <ul>
             <li><p>Address: Hanoi,Vietnam</p></li>
             <li><p>Phone: 01234</p></li>
-            <li><p>Email: RLhouse@gmail.com</p></li>
+            <li><p>Email: HMC@gmail.com</p></li>
         </ul>
         <hr>
             <br>
-            <p style="text-align: center;">© COPYRIGHT 2020 RALPH LAUREN. ALL RIGHTS RESERVED.</p>
+            <p style="text-align: center;">© COPYRIGHT 2022 HMC SOCCER. ALL RIGHTS RESERVED.</p>
             <br>
     </div>
 </body>       
