@@ -34,4 +34,7 @@ Route::get('/logIn', function (){
 Route::get('/signUp', function (){
     return view('/signUp');
 });
+Route::get('/homepage', function (){
+    return view('/homepage');
+});
 
