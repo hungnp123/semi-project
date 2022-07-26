@@ -19,3 +19,10 @@ Route::get('/', function () {
 Route::get('/test', function (){
     return view('test');
 });
+Route::get('/header', function (){
+    return view('/admin/layout/header');
+});
+Route::get('/banner', function (){
+    return view('/admin/layout/banner');
+});
+
