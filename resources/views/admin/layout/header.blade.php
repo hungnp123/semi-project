@@ -23,6 +23,11 @@
 		margin-left: 10px;
 		margin-bottom: 15px;
 	}
+	.carousel-inner .item img {
+        margin: auto;
+        width: 1000px;
+        height: 500px;
+    }
 </style>
 <body>
     <div class="header">

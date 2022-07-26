@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
     }
 
 </style>
-<body>
+<body> -->
     <div class="banner">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     				<ol class="carousel-indicators">
