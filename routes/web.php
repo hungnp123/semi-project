@@ -37,4 +37,6 @@ Route::get('/signup', function (){
 Route::get('/homepage', function (){
     return view('/homepage');
 });
-
+Route::get('/content', function (){
+    return view('/content');
+});
