@@ -28,11 +28,11 @@ Route::get('/banner', function (){
 Route::get('/footer', function (){
     return view('/admin/layout/footer');
 });
-Route::get('/logIn', function (){
-    return view('/logIn');
+Route::get('/login', function (){
+    return view('/login');
 });
-Route::get('/signUp', function (){
-    return view('/signUp');
+Route::get('/signup', function (){
+    return view('/signup');
 });
 Route::get('/homepage', function (){
     return view('/homepage');
