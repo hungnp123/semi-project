@@ -11,7 +11,25 @@
     .club{
         margin-bottom: 30px;
     	height: auto;
+        float: left;
     	width: 25%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    	border-radius: 2%;
+    	margin-left: 30px;
+        margin-top: 30px;
+    	margin-right: 15px;
+    	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+ 		background: white;
+    }
+    .match{
+        margin-bottom: 30px;
+    	height: auto;
+        float: left;
+    	width: 35%;
         text-align: center;
         padding-left: 20px;
         padding-top: 8px;
@@ -26,7 +44,7 @@
     }
 </style>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" a row>
         <div class="club">
             <table>
                 <h2>Club</h2>
@@ -52,7 +70,29 @@
                 ?>      
             </table>
         </div>
+        <div class="match">
+            <h2>Match</h2>
+            <hr>
+            <form method="post" action="{{ url('/match') }}" class="form-inline">
+                <input class="form-control" name="first_team" placeholder="First team" required>
+                <input class="form-control" name="second_team" placeholder="Second team" required>
+                <input type="hidden" name="first_team_score" value="0">
+                <input type="hidden" name="second_team_score" value="0">
+                <button type="submit" class="btn btn-primary">Start new game</button>
+            </form>
 
+            @forelse($match_id as $match_id)
+                <a class="card bg-dark" href="/matchs/{{ $match->match_id }}">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>{{ $match->score }}</h4>
+                        </div>
+                    </div>
+                </a>
+            @empty
+                No match in progress.
+            @endforelse    
+        </div>
     </div>
 </body>       
 </html>
