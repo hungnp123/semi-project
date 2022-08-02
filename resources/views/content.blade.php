@@ -50,15 +50,15 @@
                 <h2>Club</h2>
                 <hr/>
                 <?php 
-                //     $connect = mysqli_connect('127.0.0.1','root','','semi_project');
-                //     $sql = "SELECT * FROM club";
-                //     $result = mysqli_query($connect, $sql);
-                //     while($row= mysqli_fetch_array($result)){
+                    $connect = mysqli_connect('127.0.0.1','root','','semi_project');
+                    $sql = "SELECT * FROM club";
+                    $result = mysqli_query($connect, $sql);
+                    while($row= mysqli_fetch_array($result)){
                         $club_id = $row['club_id'];
                         $club_name = $row['club_name'];
                         $club_img = $row['club_img'];
                         $club_national = $row['club_national'];
-                // ?>
+                ?>
                 <tr>
                     <td> <?php echo $club_name ?></td>
                     <td> <img src="img/<?php echo $club_img ?>" style ="width: 80px; height: 80px;"></td>
@@ -66,7 +66,7 @@
                     <td> <a href='detail.php ?id=<?php echo $club_id; ?>' class='btn btn-primary'>Details</a></td>
                 </tr>
                 <?php
-                    // }
+                    }
                 ?>      
             </table>
         </div>
@@ -81,17 +81,7 @@
                 <button type="submit" class="btn btn-primary">Start new game</button>
             </form>
 
-            @forelse($match_id as $match_id)
-                <a class="card bg-dark" href="/matchs/{{ $match->match_id }}">
-                    <div class="card-body">
-                        <div class="card-title">
-                            <h4>{{ $match->score }}</h4>
-                        </div>
-                    </div>
-                </a>
-            @empty
-                No match in progress.
-            @endforelse    
+            
         </div>
     </div>
 </body>       

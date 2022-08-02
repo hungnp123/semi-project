@@ -7,14 +7,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<style type="text/css">
-    .carousel-inner .item img {
-        margin: auto;
-        width: 1000px;
-        height: 500px;
-    }
 
-</style>
 <body> -->
     <div class="banner">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -25,13 +18,13 @@
    					 </ol>
                     <div class="carousel-inner" role="listbox">
       					<div class="item active">
-        					<img  src="img/banner1.jpg" alt="banner 1">    
+        					<img  src="img/banner1.jpg" width="1000px" height="500px"alt="banner 1">    
       					</div>
      					<div class="item">
-                            <img src="img/banner2.jpg" alt="banner 2">
+                            <img src="img/banner2.jpg"  width="1000px" height="500px"alt="banner 2">
       					</div>
       					<div class="item">
-        					<img src="img/banner3.jpg" alt="banner 3">
+        					<img src="img/banner3.jpg"  width="1000px" height="500px"alt="banner 3">
       					</div>
     				</div>
     				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
