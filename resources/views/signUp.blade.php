@@ -107,7 +107,7 @@ span.su {
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="su">Have an account already? <a href="logIn">Log In</a></span>
+    <span class="su">Have an account already? <a href="login">Log In</a></span>
     <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
   </div>
 </form>

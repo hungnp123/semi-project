@@ -41,8 +41,8 @@
 								<li class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Account<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="login.php">Login</a></li>
-										<li><a href="signup.php">Sign Up</a></li>
+										<li><a href="login">Login</a></li>
+										<li><a href="signup">Sign Up</a></li>
 										<li><a href="cart.php">Team management</a></li>
 									</ul>
 								</li>
