@@ -83,6 +83,15 @@ span.su {
 }
         </style>
 </head>
+@if (session('message'))
+
+<span class="aler alert-danger">
+
+<strong>{{ session('message') }}</strong>
+
+</span>
+
+@endif
 <body>
 <form action="action_page.php" method="post">
   <div class="imgcontainer">
@@ -90,6 +99,7 @@ span.su {
   </div>
 
   <div class="container">
+    <form m action="{{route('auth.register')}}" method="POST" enctype="multipart/form-data">
   <label for="uname"><b>Fullname</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -103,6 +113,7 @@ span.su {
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
+</form>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">

@@ -88,7 +88,7 @@ span.su {
   <div class="imgcontainer">
     <img src="img/weblogo.jpg" alt="Avatar" class="avatar">
   </div>
-
+   
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
