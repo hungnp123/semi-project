@@ -23,6 +23,52 @@
 		margin-left: 10px;
 		margin-bottom: 15px;
 	}
+<<<<<<< Updated upstream
+=======
+	.carousel-inner .item img {
+        margin: auto;
+        width: 1000px;
+        height: 500px;
+    }
+	.club{
+        margin-bottom: 30px;
+    	height: auto;
+        float: left;
+    	width: 25%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    	border-radius: 2%;
+    	margin-left: 30px;
+        margin-top: 30px;
+    	margin-right: 15px;
+    	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+ 		background: white;
+    }
+    .match{
+        margin-bottom: 30px;
+    	height: auto;
+        float: left;
+    	width: 35%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    	border-radius: 2%;
+    	margin-left: 30px;
+        margin-top: 30px;
+    	margin-right: 15px;
+    	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+ 		
+		background: white;
+    }
+	.footer{
+		width: 100%;
+	}
+>>>>>>> Stashed changes
 </style>
 <body>
     <div class="header">
