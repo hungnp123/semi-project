@@ -50,7 +50,7 @@
                 <h2>Club</h2>
                 <hr/>
                 <?php 
-                    $connect = mysqli_connect('localhost','root','','semi_project');
+                    $connect = mysqli_connect('127.0.0.1','root','','semi_project');
                     $sql = "SELECT * FROM club";
                     $result = mysqli_query($connect, $sql);
                     while($row= mysqli_fetch_array($result)){
