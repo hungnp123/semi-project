@@ -81,17 +81,7 @@
                 <button type="submit" class="btn btn-primary">Start new game</button>
             </form>
 
-            @forelse($match_id as $match_id)
-                <a class="card bg-dark" href="/matchs/{{ $match->match_id }}">
-                    <div class="card-body">
-                        <div class="card-title">
-                            <h4>{{ $match->score }}</h4>
-                        </div>
-                    </div>
-                </a>
-            @empty
-                No match in progress.
-            @endforelse    
+            
         </div>
     </div>
 </body>       
